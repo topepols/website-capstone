@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Double JDG – Home</title>
+  <style>
+    /* --- Background --- */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('projects/logo-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    /* --- Header --- */
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffd700;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Welcome Section --- */
+    .welcome {
+      margin-top: 50px;
+    }
+
+    .welcome h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .welcome p {
+      font-size: 18px;
+      color: #f2f2f2;
+    }
+
+    /* --- Infinite Carousel --- */
+    .carousel-container {
+      width: 100%;
+      overflow: hidden;
+      margin: 50px auto;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px 0;
+    }
+
+    .carousel-track {
+      display: flex;
+      width: calc(250px * 20);
+      animation: scroll 30s linear infinite;
+    }
+
+    .carousel-track img {
+      width: 250px;
+      height: 180px;
+      margin: 0 10px;
+      border-radius: 10px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    .carousel-track img:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 0;
+      margin-top: 40px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Double JDG Aluminum and Glass Works</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="welcome">
+    <h2>Welcome to Double JDG</h2>
+    <p>Your trusted partner in glass, aluminum, and construction solutions.</p>
+  </section>
+
+  <!-- Infinite Carousel -->
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <img src="projects/slide1.jpg"  >
+      <img src="projects/slide2.jpg"  >
+      <img src="projects/slide3.jpg"  >
+      <img src="projects/slide4.jpg"  >
+      <img src="projects/slide5.jpg"  >
+      <img src="projects/slide6.jpg"  >
+      <img src="projects/slide7.jpg"  >
+      <img src="projects/slide8.jpg"  >
+      <img src="projects/slide9.jpg"  >
+      <img src="projects/slide10.jpg"  >
+
+      <!-- duplicated for infinite effect -->
+      <img src="projects/slide1.jpg"  >
+      <img src="projects/slide2.jpg"  >
+      <img src="projects/slide3.jpg"  >
+      <img src="projects/slide4.jpg"  >
+      <img src="projects/slide5.jpg"  >
+      <img src="projects/slide6.jpg"  >
+      <img src="projects/slide7.jpg"  >
+      <img src="projects/slide8.jpg"  >
+      <img src="projects/slide9.jpg"  >
+      <img src="projects/slide10.jpg"  >
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Double JDG. All rights reserved.</p>
+  </footer>
+</body>
+</html>

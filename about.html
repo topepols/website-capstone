@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Double JDG</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('projects/logo-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      line-height: 1.6;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      min-height: 100vh;
+      width: 100%;
+      padding-bottom: 50px;
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 15px;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    nav a.active {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 130px auto;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 30px;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.85);
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay">
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About Us</a>
+    <a href="service.html">Services</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h1>About Double JDG</h1>
+    <p>
+      <span class="highlight">Double JDG</span> is a trusted name in glass, aluminum, and construction solutions.  
+      We take pride in delivering durable, high-quality materials and stylish designs that combine  
+      functionality and modern appeal for both residential and commercial projects.
+    </p>
+
+    <p>
+      Our team of professionals is dedicated to precision, innovation, and customer satisfaction.  
+      From <span class="highlight">frameless doors</span> to <span class="highlight">roll-up systems</span> and  
+      <span class="highlight">custom aluminum works</span>, we make sure every project reflects our  
+      commitment to quality and excellence.
+    </p>
+
+    <p>
+      With years of experience, Double JDG continues to be the partner of choice for individuals  
+      and businesses seeking reliable, beautiful, and lasting construction solutions.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 Double JDG. All Rights Reserved.
+  </footer>
+
+</div>
+
+</body>
+</html>

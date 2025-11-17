@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Double JDG</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('projects/logo-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      line-height: 1.6;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      min-height: 100vh;
+      width: 100%;
+      padding-bottom: 50px;
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 15px;
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    nav a.active {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 130px auto;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 30px;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      display: inline-block;
+      backdrop-filter: blur(3px);
+    }
+
+    .contact-info a {
+      color: yellow;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.85);
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="overlay">
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="service.html">Services</a>
+    <a href="contact.html" class="active">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+
+    <div class="contact-info">
+      <p>📞 <b>0956-764-8086 / 0908-689-3404</b></p>
+      <p>📧 <a href="mailto:donggallogo75@gmail.com">donggallogo75@gmail.com</a></p>
+      <p>📍 Located in <b>Philippines</b></p>
+    </div>
+
+    <p style="margin-top:30px;">
+      Have questions or project inquiries?  
+      Send us a message and we’ll be happy to assist you with your glass, aluminum, or construction needs.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 Double JDG. All Rights Reserved.
+  </footer>
+
+</div>
+
+</body>
+</html>
